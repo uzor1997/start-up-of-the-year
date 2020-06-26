@@ -1,0 +1,70 @@
+body {
+    background: url(../desert.jpg);
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+    color: rgb(85, 0, 0);
+}
+
+.navbar {
+    /* margin-top: 20px; */
+    width: 90%;
+    margin: 20px auto 0 auto;
+}
+
+.nav-item {
+    margin: 0 10px 0 10px;
+}
+
+.form-inline {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.signup {
+    box-sizing: border-box;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+.main-Content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px auto 0 auto;
+    background-color: white;
+    width: 95%;
+}
+
+.main-Content:hover {
+    background-color: rgba(85, 69, 0, 0.6);
+}
+
+.main-Content section {
+    width: 45%;
+    margin: 0 auto;
+    border: 1px solid rgb(85, 69, 0);
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-around;
+}
+
+.sectionImage {
+    width: 5em;
+    margin: 0 20% 0 20%;
+}
+
+#info-button {
+    margin: 20px 40% 0 40%;
+    transition: all 0.5s ease-in;
+}
+
+#info-button:hover {
+    transform: scale(1.05);
+}
+
+#infopage {
+    display: none;
+}
